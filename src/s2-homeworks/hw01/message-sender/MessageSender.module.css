@@ -1,0 +1,39 @@
+.sendForm {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-top: 1px solid #ddd; /* разделительная линия сверху */
+    background-color: #f9f9f9; /* фон формы */
+}
+
+.textarea {
+    flex: 1; /* занимает всю доступную ширину */
+    padding: 12px 32px; /* вертикальные отступы меньше, чтобы текст не прилипал к краям */
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    resize: none; /* запретить изменение размера пользователем */
+    overflow: hidden; /* скролл скрыт */
+    box-sizing: border-box; /* padding учитывается в общей ширине/высоте */
+    min-height: 40px; /* минимальная высота */
+}
+
+.button {
+    margin-left: 8px;
+    padding: 8px 16px;
+    background-color: #0b93f6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #0a7cd5;
+}
+.button:active {
+    background-color: #085aa8;
+}
