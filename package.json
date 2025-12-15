@@ -1,9 +1,11 @@
 {
   "name": "hws2",
-  "homepage": "http://IgnatZakalinsky.github.io/hws2",
+  "homepage": "https://askmarrina.github.io/hw-sprint2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://askmarrina.github.io/hw-sprint2",
+  "resolutions": {
+    "eslint-plugin-react": "7.32.2"
+  },
   "dependencies": {
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
@@ -17,7 +19,7 @@
     "@types/react-dom": "18.0.6",
     "@types/uuid": "8.3.4",
     "axios": "0.27.2",
-    "gh-pages": "4.0.0",
+    "gh-pages": "^6.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "8.0.4",
